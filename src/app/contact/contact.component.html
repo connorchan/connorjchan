@@ -1,0 +1,26 @@
+<div class="cc-contact-head">
+  <p class="cc-contact-header-text">Get in touch</p>
+</div>
+<div class="cc-contact-body">
+  <div class="row">
+    <div class="col-lg-6 col-sm-12 cc-info">
+      <h3 class="cc-talk-to-me">Feel like reaching out? There are plenty of options for you!</h3>
+      <p class="cc-talk-to-me">To email directly, use the form provided form on this page.</p>
+      <p class="cc-talk-to-me">Otherwise, my social media presence can be found in the footer links. Instagram for the occasional travel photo, Twitter for ranting into the void about delayed transportation, and LinkedIn because sometimes you just need to bite the bullet and do some professional networking.</p>
+    </div>
+    <div class="col-lg-6 col-sm-12 cc-form-wrap">
+      <h3 class="form-cta">Write words...</h3>
+      <form *ngIf="!successful" [formGroup]="form" (ngSubmit)="onSubmit()">
+        <input type="text" placeholder="Name" formControlName="name">
+        <input type="text" placeholder="Email" formControlName="email">
+        <textarea placeholder="Message" formControlName="message">
+        </textarea>
+        <button type="submit" [disabled]="form.invalid">Submit</button>
+      </form>
+      <div *ngIf="successful" class="cc-confirm">
+        <h3>Thanks!</h3>
+            <p>Your message was submitted!</p>
+      </div>
+    </div>
+  </div>
+</div>

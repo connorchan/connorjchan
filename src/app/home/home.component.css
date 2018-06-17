@@ -1,0 +1,73 @@
+.cc-jumbo {
+  min-height: 140vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../assets/home-images/london.JPG");
+  background-size: cover;
+  background-position-x: 20%;
+}
+
+.cc-headline-text {
+  color: #EEE;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.cc-bio {
+  padding-bottom: 40px;
+}
+
+.cc-layers {
+  width: 240px;
+  transform:  rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-o-transform: rotate(90deg);
+  display:  block;
+  position:  relative;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+}
+
+.cc-layers-headline {
+  color: #EEE;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.cc-p {
+  color: #EEE;
+  text-align: center;
+}
+
+.cc-ul {
+  color: #EEE;
+  width: 240px;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
+.cc-get-started {
+  height: 35px;
+  width: 150px;
+  border: 1px solid #EEE;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: block;
+}
+
+.cc-get-started, .cc-get-started:hover {
+  color: #EEE;
+}
+
+@media screen and (max-width: 400px) {
+  .cc-layers {
+    transform:  rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-o-transform: rotate(0deg);
+  }
+}

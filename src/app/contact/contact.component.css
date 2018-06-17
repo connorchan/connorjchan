@@ -1,0 +1,94 @@
+.row {
+  width: 100%;
+}
+
+.cc-contact-head {
+  height: 50vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../assets/contact-images/perugia.JPG");
+  background-size: cover;
+  background-position-y: 47%;
+}
+
+.cc-contact-header-text {
+  color: #EEE;
+  font-size: 36px;
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
+
+.cc-contact-body {
+  min-height: 60vh;
+  height: auto;
+  background-color: #262626;
+}
+
+.cc-form-wrap {
+  height: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+input, button, label, textarea {
+  display: block;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+.form-cta {
+  position: relative;
+  top: 20px;
+}
+
+.form-cta, label {
+  color: #EEE;
+}
+
+input, textarea {
+  width: 50%;
+  min-width: 310px;
+}
+
+input.ng-touched.ng-invalid, textarea.ng-touched.ng-invalid {
+  border: 2px solid red;
+}
+
+button {
+  color: #FFF;
+  background: transparent;
+  border: 1px solid #EEE;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100px;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+.cc-talk-to-me {
+  color: #EEE;
+  margin: 20px 0;
+  padding: 2% 5%;
+  text-align: center;
+}
+
+.cc-confirm {
+  text-align: center;
+  color: #EEE;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  .cc-form-wrap {
+    height: auto;
+  }
+
+  form {
+    margin-bottom: 15px;
+  }
+}

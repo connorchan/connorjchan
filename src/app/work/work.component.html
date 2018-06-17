@@ -1,0 +1,18 @@
+<div class="container-fluid">
+  <div class="row timeline-top">
+    <h1 class="cc-headline">{{headline}}</h1>
+    <h3 class="cc-subhead">{{subhead}}</h3>
+    <p class="cc-body">{{body}}</p>
+  </div>
+  <div class="row timeline-bottom">
+    <div class="col-12 work-main">
+      <h2 class="timeline-head">Timeline</h2>
+      <div class="timeline">
+        <div class="timeline-vertical"></div>
+        <div class="timeline-dots">
+          <div class="timeline-dot" *ngFor="let dot of dots; let i = index" [attr.data-index]="i" (click)="updateHead($event)">{{dot.year}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

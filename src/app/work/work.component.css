@@ -1,0 +1,85 @@
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.timeline-top {
+  min-height: 50vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../assets/work-images/austria.JPG");
+  background-size: cover;
+  padding-bottom: 3%;
+}
+
+.timeline-bottom {
+  height: 37vh;
+}
+
+.work-main {
+  background: #262626;
+}
+
+.cc-headline, .cc-subhead {
+  width: 100%;
+}
+
+.cc-body {
+  width: 85%;
+  margin: 1% auto 0 auto;
+}
+
+.cc-headline, .cc-subhead, .cc-body {
+  text-align: center;
+  color: #EEE;
+  margin-top: 1%;
+}
+
+.timeline-head {
+  text-align: center;
+  color: #FFF;
+  margin-top: 1%;
+}
+
+.timeline {
+  position: relative;
+  height: 100px;
+}
+
+.timeline-vertical {
+  height: 15px;
+  width: 95%;
+  background: #FFF;
+  margin: 50px auto;
+}
+
+.timeline-dots {
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  left: 0;
+  text-align: center;
+}
+
+.timeline-dot {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border: 2px solid #FFF;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0px 2%;
+  background: #262626;
+  line-height: 35px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFF;
+  display: inline-block;
+}
+
+@media screen and (max-width: 592px) {
+  .timeline-vertical {
+    background: #262626;
+  }
+}

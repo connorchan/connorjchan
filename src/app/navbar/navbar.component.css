@@ -1,0 +1,53 @@
+.header-wrap {
+  background: #262626;
+}
+
+.head-img-row {
+  padding-top: 15px;
+}
+
+.cchan-logo {
+  margin-left: 25px;
+}
+
+.cchan-logo:hover {
+  text-decoration: none;
+}
+
+.logo-text {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar a {
+  color: #EEE;
+}
+
+.navbar li {
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+.navbar .active {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+  .cchan-logo {
+    margin-left: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}

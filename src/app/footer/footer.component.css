@@ -1,0 +1,35 @@
+footer {
+  background: #262626;
+}
+
+.copyright {
+  line-height: 50px;
+  margin-left: 25px;
+}
+
+.copyright-info {
+  font-weight: bold;
+  color: #EEE;
+}
+.sm-icon {
+  display: inline-block;
+  width: 50px;
+}
+
+.sm-icon img {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .copyright {
+    margin-left: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .icons-wrapper.ml-md-auto {
+      width: 100%;
+      text-align: center;
+  }
+}
