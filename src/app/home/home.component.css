@@ -17,11 +17,6 @@
 
 .cc-layers {
   width: 240px;
-  transform:  rotate(90deg);
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -webkit-o-transform: rotate(90deg);
   display:  block;
   position:  relative;
   margin: 0 auto;
@@ -60,14 +55,4 @@
 
 .cc-get-started, .cc-get-started:hover {
   color: #EEE;
-}
-
-@media screen and (max-width: 400px) {
-  .cc-layers {
-    transform:  rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-o-transform: rotate(0deg);
-  }
 }
