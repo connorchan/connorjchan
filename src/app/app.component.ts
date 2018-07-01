@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
+  constructor() {
+    localStorage.removeItem('firebase:previous_websocket_failure');
+  }
 }
